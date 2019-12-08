@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="post-entry">
+    <h2>{{ post.title }}</h2>
+    <img class="form-image" src="{{ post.cover.url}}">
+    <p> <div class="list-item">
+       <ul class="-list-infra">
+           <li>owner:{{ post.owner }}</li>
+       <li>cost:{{ post.cost}}</li>
+       <li>shower:{{ post.shower }}</li>
+       <li>parking:{{ post.parking}} </li>
+       <li> locker room:{{ post.locker_room}}</li>
+    </ul>
+</div></p>
+    <button class="btn"><a href="">Reserved</a> </button>
+</div>
+{% endblock content %}

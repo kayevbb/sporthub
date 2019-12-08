@@ -1,0 +1,34 @@
+header h1 a {
+    margin-left: 900px;
+    color: black;
+}
+.form-image {
+    width: 450px;
+    height: 300px;
+}
+body p {
+    color: blue;
+    margin-left: 70px;
+}
+body img{
+    width: 550px;
+    height: 400px;
+    margin-left: 60px;
+}
+body h2 {
+    margin-left: 70px;
+    color: blue;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+body p {
+    color: blue;
+    margin-: 70px;
+}
+.sing_in{
+    margin-left: 100px;
+    color: #a30029;
+}
